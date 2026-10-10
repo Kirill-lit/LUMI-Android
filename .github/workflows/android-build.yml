@@ -22,5 +22,4 @@ jobs:
         with:
           name: LUMI-debug-apk
           path: '**/build/outputs/apk/debug/*.apk'
-          if-no-files-found: err
-        or
+          if-no-files-found: error
